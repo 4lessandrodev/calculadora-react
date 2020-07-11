@@ -3,8 +3,7 @@
     height: 320px;
     border-radius: 5px;
     overflow: hidden;
-    background-color: red;
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(5, 48px);
+    grid-template-rows: 1fr repeat(5, 48px);
 }

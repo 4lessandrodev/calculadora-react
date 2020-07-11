@@ -11,3 +11,24 @@
     border-bottom: var(--border-button);
     outline: none;
 }
+
+.Button:active{
+    background-color: #ccc;
+}
+
+.Button.Double{
+grid-column: span 2;
+}
+
+.Button.Triple{
+    grid-column: span 3;
+}
+
+.Button.Operational{
+    background-color: #fa8231;
+    color: #ffffff;
+}
+
+.Button.Operational:active{
+    background-color: #fa8231cc;
+}
